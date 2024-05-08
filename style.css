@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    margin: 0; /* Resetting default margin */
+    padding: 0; /* Resetting default padding */
+    font-family: 'Outfit';
+    font-size: 16px;
+}
+
+.container {
+    background-color:hsl(330, 100%, 98%); /* Set background color to pink */ 
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-top: 7%;
+}
+.inner {
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 100%); /* Set background color of inner part to white */
+    margin: 20px; /* Add margin to create space between inner content and container */
+    padding: 5%;
+}
+
+.title {
+    font-family: 'Young Serif';
+
+}
+.meal {
+    background-color: none;
+    margin: 10%;
+}
+
+.omelette {
+max-width: 100%;
+margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    margin: 0px;
+}
+
+.prep {
+    background-color:hsl(330, 100%, 98%);
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+#preparation {
+    color: hsl(332, 51%, 32%);
+}
+
+h2 {
+    font-family: 'Young Serif';
+}
+
+.coloredBrown {
+    font-family: outfit;
+    color: hsl(14, 45%, 36%);
+}
+#dark {
+    color: black;
+    font-weight: 800;
+}
+li {
+    padding: 2% 5%;
+}
+
+span {
+    color: black;
+}
+
+ul {
+    padding-left: 7%;
+}
+
+
+table {
+    width: 100%;
+}
+td {
+    padding: 8px;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    padding-top: 50px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        background-color:hsl(330, 100%, 98%); /* Set background color to pink */ 
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    .inner {
+        background-color: hsl(0, 0%, 100%); /* Set background color of inner part to white */
+        margin: 0px; 
+        padding: 0px;
+    }
+
+    .subInner {
+        padding: 5%;
+    }
+
+    .omelette {
+        max-width: 100%;
+        margin: 0px;
+        }
+        
+        img {
+            max-width: 100%;
+            margin: 0px;
+        }
+}
